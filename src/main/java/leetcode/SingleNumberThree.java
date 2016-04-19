@@ -30,8 +30,6 @@ public class SingleNumberThree {
         result[1] ^= num;
       }
     }
-
-    System.out.println(result[0] + "," + result[1]);
     return result;
   }
 }
